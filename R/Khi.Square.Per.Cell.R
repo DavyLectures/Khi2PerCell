@@ -71,7 +71,7 @@ Khi.Square.Per.Cell<- function(df, n.Segmentation,
         if(round(Valor.de.P,3)<=0.001){Significancia<-"***"
         }else if(round(Valor.de.P, 2)<=0.01){Significancia<-"**"
         }else if(round(Valor.de.P, 2)<=0.05){Significancia<-"*"
-        }else{Significancia<-" "}
+        }else{sinal<-" "}
 
         # Significancia<-NULL
         # if(Valor.de.P<0.001){Significancia<-"***"
@@ -209,7 +209,7 @@ Khi.Square.Per.Cell<- function(df, n.Segmentation,
         if(round(Valor.de.P,3)<=0.001){Significancia<-"***"
         }else if(round(Valor.de.P, 2)<=0.01){Significancia<-"**"
         }else if(round(Valor.de.P, 2)<=0.05){Significancia<-"*"
-        }else{Significancia<-" "}
+        }else{sinal<-" "}
 
         # if(Valor.de.P<0.001){Significancia<-"***"
         # }else if(Valor.de.P<0.01){Significancia<-"**"
